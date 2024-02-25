@@ -22,7 +22,7 @@ pub struct Env {
 
 pub fn get_Env() -> Env {
 
-  let config_contents = fs::read_to_string("env.toml").expect("error finding env.toml");
+  let config_contents = fs::read_to_string(".env.toml").expect("error finding env.toml");
 
   let config: Env  = toml::from_str(config_contents.clone().as_str()).expect("Env failure");
 
