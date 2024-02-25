@@ -4,15 +4,10 @@ It is a Multi Hop arbitrage bot with a maximum length of 5, saves and precalcula
 
 For Configuration,  fill the variable in `.env.toml`.
 `private_key = "13279"
-
  mnemonic = "X X"
-
  https = "https://.."
-
- wss = "wss://.."
- 
- multicall_contract = "0x...
- 
+ wss = "wss://.." 
+ multicall_contract = "0x... 
  Max_Hops = 5`
 
 ### Little Alpha
